@@ -1,0 +1,49 @@
+
+.content2 a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-radius: 0px;
+   
+}
+.a {
+    margin-top: 130px;
+    width: 100%;
+    
+}
+.a h5{
+}
+.content2 h3 span{
+    color: orange;
+}
+.content, .content22{
+    text-align: justify;
+
+
+}
+.content2{
+    margin-left: 30px;
+    margin-top:80px ;
+}
+.container{
+    border: none;
+}
+.h3 {
+    margin-top: -10%;
+    text-align: center;
+    color :rgb(248, 235, 209);
+}
+.h3 span{
+    color:orangered;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+@media screen and (max-width : 200px){
+
+    
+}
