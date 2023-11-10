@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .content2 a{
     padding: 10px;
@@ -47,3 +48,60 @@
 
     
 }
+=======
+.card-group{
+    padding: 15px;
+}
+
+.card{
+    line-height: 40px;
+    border: none;
+    padding: 10px;
+}
+.card img{
+    border-radius: 10px;
+}
+.card span{
+    color: #FFB30E;}
+.btn{
+    background-color: #F17228;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* PROMOTION */
+
+.dead-line{
+    background-color: rgba(241, 114, 40, 0.20);
+    color: #F17228;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.span{
+    background-color: #FFB30E;
+    padding: 3%;
+}
+
+.promo{
+    position: absolute;
+    bottom: 28%;
+    width: 30%;
+}
+
+/* END PROMOTION */
+@media(max-width: 500px) {
+    .promo{
+        position: absolute;
+        bottom: 33%;
+        width: 30%;
+    }
+  }
+>>>>>>> 10fadfd999192a0f8d8a5f99830dc7251ea02e21
