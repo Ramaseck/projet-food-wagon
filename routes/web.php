@@ -14,16 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-<<<<<<< HEAD
-Route::get('/', function () {
-    return view('master');
-});
+
 
 /*Auth::routes();
 
 Route::get('/home', [App \Http\Controllers\HomeController::class, 'index'])->name('home');*/
-=======
-Route::get('/master', function () {
+
+Route::get('/', function () {
     return view('master');
 });
 
@@ -38,4 +35,3 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
->>>>>>> 1fa8e2dede48b9bb416b0c4f8d6e58946ede6edc

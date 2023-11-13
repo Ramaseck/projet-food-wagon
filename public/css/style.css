@@ -204,7 +204,6 @@ footer {
     text-align: left;
     padding: 10px;
     width: 100%;
-    position: fixed;
     bottom: 0;
 }
 i {
@@ -215,4 +214,3 @@ i {
         height: 200px;
     }
 }
->>>>>>> 1fa8e2dede48b9bb416b0c4f8d6e58946ede6edc
