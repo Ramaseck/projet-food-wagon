@@ -1,10 +1,4 @@
-{{-- <div class="card" style="width: 18rem;">
-    <img src="{{asset('images/Rectangle 336.jpg')}}" alt="">
-    <h1>Chesse Burger</h1>
-    <span><i class="ri-map-pin-fill"></i> Burger Arena</span>
-    <h2>$3.88</h2>
-    <button>ORDER NOW</button>
-</div> --}}
+
 <h1 class="text-center">Popular Items</h1>
 <div class="card-group">
     <div class="card fw-bolder" style="width: 18rem;">
