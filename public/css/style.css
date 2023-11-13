@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .content2 a{
     padding: 10px;
@@ -109,3 +110,109 @@
     }
   }
 >>>>>>> 10fadfd999192a0f8d8a5f99830dc7251ea02e21
+=======
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("{{asset('image/cprvgknm.png')}}");
+    overflow: hidden;
+    position: relative;
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.header h1 {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    z-index: 1;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.red-text {
+    color: red;
+}
+.orange-text {
+    color: orange;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    margin-right: 40px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.bold-text {
+    font-weight: bold;
+}
+.user-login {
+    display: flex;
+    align-items: center;
+}
+.login-link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.orange-icon {
+    color: orange;
+    margin-right: 5px;
+}
+.orange-text {
+    color: orange;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+i {
+    font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+    .header {
+        height: 200px;
+    }
+}
+>>>>>>> 1fa8e2dede48b9bb416b0c4f8d6e58946ede6edc
